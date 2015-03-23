@@ -1,0 +1,165 @@
+/*
+Theme Name: light_fire
+Layout Style
+*/
+
+/* Global */
+
+ul.menu {
+font-size: 0px;
+}
+
+ul.menu li.menu-item {
+font-size: 14px;
+}
+
+/* Fonts */
+
+a,a:visited {
+color: royalblue;
+text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: midnightblue;
+}
+
+/* Header */
+
+#masthead {
+background: transparent;
+box-sizing: border-box;
+min-height: 150px;
+padding: 10px 15px; 
+width: 100%;
+}
+
+#logo {
+text-align: center;
+}
+
+/* Header Menu */
+
+#site-navigation {
+background: transparent;
+}
+
+#site-navigation ul.menu {
+font-size: 0px;
+text-align: center;
+}
+
+#site-navigation ul.menu li.menu-item {
+background: transparent;
+display: inline;
+font-size: 14px;
+padding: 5px 15px; 
+}
+
+#site-navigation ul.sub-menu li.menu-item  {
+display: block;
+}
+
+/* Mobile Nav*/
+
+.menu-toggle {
+display: none;
+}
+	
+.mobile-navigation ul {
+display: none;
+margin-left: 0;
+margin-top: 10px;
+text-align: center;
+}
+
+.mobile-navigation ul li {
+background: white;
+padding: 5px 10px;
+list-style: none;
+}
+
+.mobile-navigation ul li a {
+	
+}
+
+@media screen and (max-width: 600px) {
+	#site-navigation {
+		display: none;	
+	}
+	
+	.menu-toggle,
+	.mobile-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.mobile-navigation ul {
+		display: none;
+	}
+}
+
+/* Wrapper */
+
+#content {
+box-sizing: border-box;
+margin: 50px auto;
+width: 1100px; 
+}
+
+/* Sidebar */
+
+#secondary {
+padding: 0 20px;	
+}
+
+/* Full Without Sidebar */
+
+#layout-full #primary {
+box-sizing: border-box;	
+margin: 50px auto;
+width: 100%;
+}
+
+#layout-full  #secondary {
+display: none;
+}
+
+/* Sidebar Left */
+
+#layout-sidebar-left #primary {
+box-sizing: border-box;	
+float: right; 
+width: 70%;
+}
+
+#layout-sidebar-left #secondary {
+box-sizing: border-box;	
+float: left; 
+width: 29.9%;
+}
+
+/* Sidebar right */
+
+#layout-sidebar-right #primary {
+box-sizing: border-box;	
+float: left; 
+width: 70%;
+}
+
+#layout-sidebar-right #secondary {
+box-sizing: border-box;	
+float: right; 
+width: 29.9%;
+}
+
+/* Widgets */
+
+.widget ul {
+margin-left: 0;
+}
+
+.widget ul li {
+list-style: none;
+}

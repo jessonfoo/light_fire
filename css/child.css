@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background: url(../images/background.jpg); 
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#content, header {
+margin: 0 auto;
+width: 1000px;
+}
+
+#site-navigation {
+width: 800px;
+margin: 10px auto;
+}
+
+#site-navigation #menu-main-navigation {
+border-top: 1px dotted #3d3d3d;
+border-bottom: 1px dotted #3d3d3d;
+padding-top: 7px;
+padding-bottom: 4px;
+}
+
+#site-navigation ul li a:hover {
+color: rgb(153, 0, 0);
+}
+
+.menu-main-navigation-container {
+margin: 0 auto;
+width: 100%;
+}
+
+/* Home Page */
+
+#home-picture-wrapper {
+width: 900px;
+padding: 7px;
+margin: 0 auto;
+background: white;
+}
+
+#home-picture-wrapper img {
+display: block;
+}
+
+.small_width {
+margin: 0 auto;
+width: 900px;
+}
+
+.white_border {
+border: 4px solid rgb(150,150,150)
+}
+
+/* Content */
+
+.page-banner {
+margin-bottom: 20px;
+}
+
+.entry-content {
+margin-top: 10px;
+}
+
+#wpgmza_map {
+border: 7px solid white;
+}
+
+/* col */
+
+.right {
+float: right;
+}
+
+.left {
+float: left;
+}
+
+.col_14 {
+width: 24%;
+}
+
+.col_34 {
+width: 74%;
+}
+
+.row .col_12,
+.row .col_13,
+.row .col_23 {
+box-sizing: border-box;
+display: inline-block;
+vertical-align: bottom;
+}
+
+.col_12 {
+width: 49.73%;
+}
+
+.col_13 {
+width: 40.4%;
+}
+
+.col_23 {
+widtH: 59%;
+}
+
+.row:after {
+content: '';
+display: table;
+clear: both;
+}
+
+/* Hover */
+
+.img_hover {
+cursor: pointer;	
+	
+-webkit-transition: all 0.5s ease;                  
+-moz-transition: all 0.5s ease;                 
+-o-transition: all 0.5s ease;   
+-ms-transition: all 0.5s ease;          
+transition: all 0.5s ease;
+}
+
+.img_hover:hover {
+opacity: 0.6;
+}
+
+/* Footer */
+
+#footer {
+position: relative;
+width: 1000px;
+margin: 0 auto;
+margin-top: 30px;
+}
+
+#footer .rating {
+margin: 15px auto;
+float: left;
+padding: 0 10px;
+box-sizing: border-box;
+height: 150px;
+}
+
+#footer .rating > div {
+margin: 0 auto;
+}
+
+.social-media {
+margin-bottom: 20px;
+}
+
+.social-media a {
+padding: 0 2px;
+}
+
+.social-media img {
+height: 30px;	
+	
+-webkit-transition: all 0.3s ease;                  
+-moz-transition: all 0.3s ease;                 
+-o-transition: all 0.3s ease;   
+-ms-transition: all 0.3s ease;          
+transition: all 0.3s ease;
+}
+
+.social-media img:hover {
+opacity: .8;
+}
+
+/* structures */
+
+.tcenter {
+text-align: center;
+}
+
+/* Wordpress Overrides */
+
+.hentry, #layout-full #primary {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/* Gallery Post */
+
+.gallery_post {
+width: 18.7%;
+margin-right: 1%;
+display: inline-block;
+}
+
+.gallery_post h1 {
+margin-bottom: 5px;
+}
+
+.gallery_post:nth-child(5n) {
+margin-right: 0%;
+}
+
+/* Secondary Menu */
+
+.menu-gallery-menu-container {
+float: left;
+margin-top: 25px;
+width: 19%;
+}
+
+#menu-gallery-menu {
+text-align: left;
+margin-bottom: 40px;
+}
+
+#menu-gallery-menu li {
+display: block;
+margin: 5px auto; 
+}
+
+#menu-gallery-menu li:after {
+content: '';
+margin-right: 3px;
+float: right;
+display: inline-block;
+background: url(../images/arrow.png);
+width: 5px;
+height: 10px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 6px;
+}
+
+#menu-gallery-menu li a {
+font-size: 15px;
+} 
+
+#menu-gallery-menu li.current-menu-item a {
+color: rgb(153, 0, 0);
+}
+
+/* Blogs */
+.entry-title {
+font-size: 20px;
+}
+
+/* Testimonial */
+
+.test_wrap {
+border: 7px solid rgb(255, 255, 255);
+padding: 15px 15px 10px 15px;
+background: rgba(255, 255, 255, 0.5);
+width: 24%;
+margin: 5px 0;
+box-sizing: border-box;
+vertical-align: top;
+text-align: center;
+}
+
+.test_wrap p {
+font-size: 15px;
+margin-bottom: 5px;
+}
+
+.test_wrap  p.test_author {
+margin-bottom: 0;
+font-size: 16px !important;
+color: black;
+}
+
+.test_wrap.med {
+width: 49%;
+}
+
+.test_wrap.big {
+width: 74%;
+}
+
+.widget-title {
+font-size: 16px;
+}
+
+.widget li a  {
+font-size: 13px;
+padding-left: 5px;
+}
+
+.widget li {
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+margin-bottom: 9px;
+}
+
+.widget li:last-child {
+border-bottom: 0px solid #ccc;
+}
+
+/* IE FIXES */
+
+#home-picture-wrapper a,
+.small_width a {
+display: block;
+}

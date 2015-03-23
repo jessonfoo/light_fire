@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: trajan;
+    src: url(fonts/TrajanRegular.otf);
+}
+
+#site-navigation ul li a {
+color: #3d3d3d;
+font-family: trajan;
+font-size: 17px;
+line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span, li {
+font-family: trajan;
+}
+
+p, a, a:visited {
+color: #3d3d3d;
+}
+
+a {
+-webkit-transition: all 0.3s ease;                  
+-moz-transition: all 0.3s ease;                 
+-o-transition: all 0.3s ease;   
+-ms-transition: all 0.3s ease;          
+transition: all 0.3s ease;
+}
+
+a:hover {
+color: rgb(153, 0, 0);
+}
+
+/* Page Content */
+
+.entry-content p,
+.entry-header span {
+font-family: trajan;
+font-size: 13px;
+}
+
+.gallery .entry-header {
+text-align: center;
+}
+
+.gallery .entry-header .entry-title{
+font-size: 30px;
+}
+
+/* footer */
+
+#footer p {
+font-family: trajan;
+font-size: 13px;
+}
+
+/* Page titles */
+
+.page_title {
+font-size: 33px; 
+text-align: center;
+}
+
+.page_title:before,
+.page_title:after {
+background-size: contain !important;
+content: '';
+display: inline-block;
+height: 62px;
+vertical-align: top;
+width: 100px;
+}
+
+.page_title:before {
+background: url(../images/LeftWing.png) no-repeat;
+margin-right: 0px;
+}
+
+.page_title:after {
+background: url(../images/RightWing.png) no-repeat;
+margin-left: 0px;
+}

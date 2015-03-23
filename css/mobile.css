@@ -1,0 +1,458 @@
+/*
+Theme Name: light_fire
+Layout Style
+*/
+
+.mobile_cell {
+display: none !important;
+}
+
+@media screen and (max-width : 1000px) {
+	
+	.menu-gallery-menu-container {
+	margin-top: 0;
+	width: 100%;
+	}
+	
+	.paginate_wrap {
+	text-align: center;
+	padding-right: 0;
+	}
+	
+	#menu-gallery-menu {
+	text-align: center;
+	}
+	
+	.hentry {
+	width: 100% !important;
+	float: none !important;
+	}
+	
+	body #footer {
+	width: 100%;
+	padding: 0 2%;
+	box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width : 1050px) {
+	body .test_wrap {
+	width: 100% !important;
+	}
+	
+	#rating_row, 
+	#site-navigation {
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width : 850px) and (max-width : 1025px) {
+	
+	/* Page Reset */
+	
+	body {
+	background-position: top left;
+	}
+	
+	#content {
+	padding: 10px 20px;
+	width: 100%;
+	}
+
+	
+	/* Home Page */
+	
+	#home-picture-wrapper {
+	background: transparent;
+	width: 100%;
+	}
+	
+	#home-picture-wrapper .col_23 {
+	text-align: center;
+	width: 100% !important;
+	}
+	
+	#home-picture-wrapper .col_23 {
+	display: none;
+	}
+	
+	#home-picture-wrapper .col_13{
+	width: 100%;
+	}
+	
+	#home-picture-wrapper .col_13 div {
+	float: left;
+	text-align: center;
+	width: 49.9%;
+	}
+	
+	#home-picture-wrapper .col_13 div img{
+	border: 5px solid white;
+	display: block;
+	padding-bottom: 0px !important;
+	margin: 0 auto;
+	}
+	
+	.small_width {
+	width: 100%;
+	margin: 0 auto;
+	}
+	
+	.small_width div {
+	width: 49.6%;
+	}
+	
+	/* Sidebar left */
+	
+	#layout-sidebar-left #primary,
+	#layout-sidebar-left #secondary {
+	width: 100%;
+	}
+	
+	/* Sidebar Right */
+	
+	#layout-sidebar-right #primary,
+	#layout-sidebar-right #secondary {
+	width: 100%;
+	}
+	
+	/* Galleries */
+	
+	body .gal_item {
+	text-align: center;
+	width: 33%;
+	}
+
+	
+	/* Fancy Box */
+	
+	#fancybox-thumbs.bottom {
+	bottom: 30px !important;
+	}
+	
+}
+
+@media screen and (min-width : 601px) and (max-width : 849px) {
+	#site-navigation {
+		display: none;	
+	}
+	
+	.menu-toggle,
+	.mobile-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.mobile-navigation ul {
+		display: none;
+	}
+
+	/* Page Reset */
+	
+	body {
+	background-position: top left;
+	}
+	
+	#content {
+	padding: 10px 20px;
+	width: 100%;
+	}
+	
+	/* Mobile Menu */
+	
+	.menu-toggle {
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 80%;
+	}
+	
+	/* Page Headers */
+	
+	.page_title {
+	font-size: 22px;
+	}
+	.page_title:before {
+	margin-right: 5px;
+	}
+	
+	.page_title:before, .page_title:after {
+	height: 30px;
+	width: 50px;
+	}
+	
+	/* Home Page */
+	
+	#home-picture-wrapper {
+	width: 100%;
+	background: transparent;
+	text-align: center;
+	}
+	
+	#home-picture-wrapper .hide_mobile {
+	display: none;
+	}
+	
+	#home-picture-wrapper div {
+	margin: 0 auto;
+	width: auto; 
+	}
+	
+	.small_width,
+	.small_width div {
+	width: 100%;
+	text-align: center !important;
+	}
+	
+	body .small_width .col_12 {
+	margin-bottom: 10px !important;
+	}
+	
+	/* Sidebar left */
+	
+	#layout-sidebar-left #primary,
+	#layout-sidebar-left #secondary {
+		width: 100%;
+	}
+	
+	/* Sidebar Right */
+	
+	#layout-sidebar-right #primary,
+	#layout-sidebar-right #secondary {
+		width: 100%;
+	}
+	
+	/* Galleries */
+	
+	body .gal_item {
+	text-align: center;
+	width: 33.33%;
+	}
+	
+	/* Galleries Menu */
+	
+	#menu-gallery-menu li {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	}
+	
+	#menu-gallery-menu li:after {
+	display: none;
+	}
+	
+	/* Fancy Box */
+	
+	#fancybox-thumbs.bottom {
+	bottom: 30px !important;
+	}
+	
+	/* Blog */
+	
+	article .row .col_14 {
+	text-align: center;
+	width: 100% !important;
+	}
+	
+	article .row .col_34 {
+	float: none !important;
+	margin: 0 auto;
+	text-align: center;
+	width: 70% !important;
+	}
+	
+	article .row > .col_14 {
+	margin-bottom: 15px;
+	}
+	
+	/* Col Structures */
+	
+	.col_12 {
+	width: 100%;
+	}
+	.col_12 img {
+	display: block; 
+	margin: 0 auto;
+	}
+	
+	body .col_12:nth-child(1) {
+	margin-bottom: 20px;
+	}
+	
+	/* Single */
+	#post-48 .col_12 {
+	padding-left: 0 !important;
+	}
+	
+	/* Footer 800 */
+	
+	body #footer .rating { 
+	position: initial;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+	
+	/* Page Reset */
+	
+	body {
+	background-position: top left;
+	}
+	
+	#content {
+	padding: 10px 20px;
+	width: 100%;
+	}
+	
+	/* Mobile Menu */
+	
+	.menu-toggle {
+	font-size: 14px;
+	margin-top: 15px;
+	width: 100%;
+	}
+	
+	/* Page Headers */
+	
+	.page_title {
+	font-size: 22px;
+	}
+	.page_title:before {
+	margin-right: 5px;
+	}
+	
+	.page_title:before, .page_title:after {
+	height: 30px;
+	width: 50px;
+	}
+	
+	/* Home Page */
+	
+	#home-picture-wrapper {
+	width: 90%;
+	}
+	
+	#home-picture-wrapper{
+	display: none;
+	}
+	
+	#home-picture-wrapper div {
+	margin: 0 auto;
+	width: auto; 
+	}
+	
+	.small_width,
+	.small_width div {
+	width: 100%;
+	text-align: center !important;
+	}
+	
+	body .small_width .col_12 {
+	margin-bottom: 10px !important;
+	}
+	
+	/* Blog */
+	
+	article .row > .col_14 {
+	text-align: center;
+	width: 100% !important;
+	}
+	
+	article .row > .col_34 {
+	float: none !important;
+	margin: 0 auto;
+	text-align: center;
+	width: 95% !important;
+	}
+	
+	article .row > .col_14 {
+	margin-bottom: 15px;
+	}
+	
+	/* Sidebar left */
+	
+	#layout-sidebar-left #primary,
+	#layout-sidebar-left #secondary {
+		width: 100%;
+	}
+	
+	/* Sidebar Right */
+	
+	#layout-sidebar-right #primary,
+	#layout-sidebar-right #secondary {
+		width: 100%;
+	}
+	
+	/* Galleries */
+	
+	body .gal_item {
+	text-align: center;
+	width: 50%;
+	}
+	
+	
+	/* Galleries Menu */
+	
+	#menu-gallery-menu li {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	}
+	
+	#menu-gallery-menu li:after {
+	display: none;
+	}
+	
+	/* Fancy Box */
+	
+	#fancybox-thumbs.bottom {
+	bottom: 30px !important;
+	}
+	
+	/* Col Structures */
+	
+	.col_12 {
+	width: 100%;
+	}
+	.col_12 img {
+	display: block; 
+	margin: 0 auto;
+	}
+	
+	body .col_12:nth-child(1) {
+	margin-bottom: 20px;
+	}
+	
+	/* Single */
+	#post-48 .col_12 {
+	padding-left: 0 !important;
+	}
+	
+	body .mobile_cell {
+	display: block !important;
+	}
+
+	/* Footer 800 */
+	
+	body #footer .rating { 
+	position: initial;
+	}	
+	
+	#footer-email {
+	font-size: 12px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) and (orientation : landscape) {
+
+	/* Galleries */
+	
+	body .gal_item {
+	text-align: center;
+	width: 33.33%;
+	}
+
+}

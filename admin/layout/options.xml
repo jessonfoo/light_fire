@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<option id="logo">
+		<value>Update</value>
+	</option>
+	<option id="favicon">
+		<value>Favicon Test</value>
+	</option>
+	<option id="comments">
+		<value>true</value>
+	</option>
+</theme>
